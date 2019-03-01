@@ -1,5 +1,5 @@
 # Aurora borealis classification
-
+### System diagram
 ### Methodology
 #### 1) labels    
     L = laebls {0,1,2,3,4,5}    
