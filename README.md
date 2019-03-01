@@ -1,18 +1,18 @@
 # Aurora borealis classification
 ## Methodology
-### labels
-L = laebls {0,1,2,3,4,5}  
-0 --> arc   
-1 --> diffuse    
-2 --> discrete    
-3 --> cloudy    
-4 --> moon     
-5 --> clear sky/no aurora     
-### Image preparation
+### 1. labels
+    L = laebls {0,1,2,3,4,5}  
+    0 --> arc   
+    1 --> diffuse    
+    2 --> discrete    
+    3 --> cloudy    
+    4 --> moon     
+    5 --> clear sky/no aurora     
+### 2. Image preparation
 
-### Feature extraction
+### 3. Feature extraction
 
-### Ridge classfication
+### 4. Ridge classfication
 
 
 
