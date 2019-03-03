@@ -32,8 +32,8 @@ those astronomy enthusiast.
   
 ## System diagram
 ![Screenshot](dataflow.jpg)
-## Tech
 
+## Technology selection
 * Tensorflow
 * Ubuntu 18.04 
 * BU SCC (Shared Computing Cluster) 
