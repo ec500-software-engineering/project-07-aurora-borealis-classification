@@ -2,6 +2,7 @@
 ### User story
 
 ### System diagram
+![Screenshot](data flow.jpg)
 ### Methodology
 #### 1) labels    
     L = laebls {0,1,2,3,4,5}    
