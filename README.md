@@ -7,19 +7,18 @@
 #### 1) labels    
 L = laebls {0,1,2,3,4,5}    
 
-| Plugin | README |
+| label | description |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| 0 --> arc  | one or multiple bands of aurora that stretch across the field-of-view |
 | Github | [plugins/github/README.md][PlGh] |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
-0 --> arc  
+ 
 
-      This label is used for images that show one or multiple bands of aurora that stretch across the field-of-view;       
-      typically,the arcs have well-defined, sharp edges    
+ 
 
 1 --> diffuse     
 
