@@ -29,11 +29,6 @@ Aurora images. And then using labels and feature vectors together to train a rid
 that is then able to correctly predict the category of unseen auroral images. This
 classifier could be used no only in research of magnetospheric dynamics, but also by
 those astronomy enthusiast.
-
-## Definition of sprint
-  - data proprecessing
-  - model selection
-  - tool selection
   
 ## System diagram
 ![Screenshot](dataflow.jpg)
@@ -71,7 +66,13 @@ accuracy and computational complexity to date.
 Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:      
   - The added ridge improves the generalization capabilities of the method           
   - It deals with binary labels   
-  
+
+## Definition of First Sprint
+1. Collect aurora dataset and analysis.
+2. Data proprecessing and extracting features.
+3. Deep learning model selection.
+4. Tool selection.
+
 ## Task assignments
 
   
