@@ -83,5 +83,5 @@ Ridge classification is a linear method extending and generalizing ordinary line
 2. Feasure_Extraction
   
 ## Reference
-Clausen, Lasse BN, and Hannes Nickisch. "Automatic Classification of Auroral Images From the Oslo Auroral THEMIS (OATH) Data Set Using Machine Learning." Journal of Geophysical Research: Space Physics 123.7 (2018): 5640-5647.
+[1] Clausen, Lasse BN, and Hannes Nickisch. "Automatic Classification of Auroral Images From the Oslo Auroral THEMIS (OATH) Data Set Using Machine Learning." Journal of Geophysical Research: Space Physics 123.7 (2018): 5640-5647.
 
