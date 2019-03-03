@@ -31,15 +31,19 @@ L = laebls {0,1,2,3,4,5}
       
 5 --> clear sky/no aurora     
 
-      This label is attached to images which show a clearsky without the appearance of aurora    
+      This label is attached to images which show a clearsky without the appearance of aurora               
 
-#### 2) Image preparation
-The images in our training data set originate from the THEMIS all-sky imager network.      
-The raw auroral image is cropped insize by 15% in order to remove pixels that correspond to very low elevation angles
+#### 2) Image preparation                 
+The images in our training data set originate from the THEMIS all-sky imager network.               
+The raw auroral image is cropped insize by 15% in order to remove pixels that correspond to very low elevation angles               
 
-#### 3) Feature extraction
-
-#### 4) Ridge classfication
-
+#### 3) Feature extraction     
+Compute the feature vector **f** from each imagexusing TensorFlow       
+Use the latest Inception-v4 pretrained neural network, which offers the best compromise between classification                
+accuracy and computational complexity to date.            
+#### 4) Ridge classfication               
+Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:           
+1. The added ridge improves the generalization capabilities of the method           
+2. It deals with binary labels            
 
 
