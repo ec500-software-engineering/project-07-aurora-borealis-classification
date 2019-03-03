@@ -30,12 +30,17 @@ that is then able to correctly predict the category of unseen auroral images. Th
 classifier could be used no only in research of magnetospheric dynamics, but also by
 those astronomy enthusiast.
 
+## Definition of sprint
+  - data proprecessing
+  - model selection
+  - tool selection
+  
 ## System diagram
 ![Screenshot](dataflow.jpg)
 ### Tech
 
 * Tensorflow
-* Ubuntu 18.04 Shared Computing Cluster
+* Ubuntu 18.04 
 * BU SCC (Shared Computing Cluster) 
 
 ## Methodology
@@ -68,9 +73,7 @@ Ridge classification is a linear method extending and generalizing ordinary line
   - It deals with binary labels   
   
 ## Task assignments
-  - data proprecessing
-  - model selection
-  - tool selection
+
   
 ## Reference
 Clausen, Lasse BN, and Hannes Nickisch. "Automatic Classification of Auroral Images From the Oslo Auroral THEMIS (OATH) Data Set Using Machine Learning." Journal of Geophysical Research: Space Physics 123.7 (2018): 5640-5647.
