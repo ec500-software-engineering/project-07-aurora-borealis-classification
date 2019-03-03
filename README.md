@@ -32,7 +32,7 @@ those astronomy enthusiast.
   
 ## System diagram
 ![Screenshot](dataflow.jpg)
-### Tech
+## Tech
 
 * Tensorflow
 * Ubuntu 18.04 
