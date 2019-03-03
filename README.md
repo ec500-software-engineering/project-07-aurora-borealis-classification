@@ -74,8 +74,9 @@ Ridge classification is a linear method extending and generalizing ordinary line
 4. Tool selection.
 
 ## Task assignments
-*Zhangyu Wan*: Researching on aurora, using shell script to finish data proprecessing and deciding which deep learning model should be used.
-*Xiangkun Ye*: Researching on aurora and using python to extract necessory features from dataset. Deciding other tools to use while traing ridge classifior.
+**Zhangyu Wan**: Researching on aurora, using shell script to finish data proprecessing and deciding which deep learning model should be used.
+
+**Xiangkun Ye**: Researching on aurora and using python to extract necessory features from dataset. Deciding other tools to use while traing ridge classifior.
   
 ## Reference
 Clausen, Lasse BN, and Hannes Nickisch. "Automatic Classification of Auroral Images From the Oslo Auroral THEMIS (OATH) Data Set Using Machine Learning." Journal of Geophysical Research: Space Physics 123.7 (2018): 5640-5647.
