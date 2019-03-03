@@ -59,6 +59,10 @@ accuracy and computational complexity to date.
 #### 4) Ridge classfication               
 Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:      
   - The added ridge improves the generalization capabilities of the method           
-  - It deals with binary labels            
-
+  - It deals with binary labels   
+  
+### Task assignments
+  - data proprecessing
+  - model selection
+  - tool selection
 
