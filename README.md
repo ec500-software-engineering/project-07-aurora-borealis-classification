@@ -38,7 +38,7 @@ those astronomy enthusiast.
 * Ubuntu 18.04 
 * BU SCC (Shared Computing Cluster) 
 
-## Methodology
+## Methodology and Technology Selection
 ### 1) labels    
 L = laebls {0,1,2,3,4,5}    
 
@@ -59,7 +59,7 @@ The images in our training data set originate from the THEMIS all-sky imager net
 The raw auroral image is cropped insize by 15% in order to remove pixels that correspond to very low elevation angles               
 
 ### 3) Feature extraction     
-Compute the feature vector **f** from each imagexusing TensorFlow       
+Compute the feature vector **f** from each images using **TensorFlow**   
 Use the latest Inception-v4 pretrained neural network, which offers the best compromise between classification                
 accuracy and computational complexity to date.            
 ### 4) Ridge classfication               
