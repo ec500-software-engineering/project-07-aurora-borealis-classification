@@ -32,6 +32,12 @@ those astronomy enthusiast.
 
 ## System diagram
 ![Screenshot](dataflow.jpg)
+### Tech
+
+* Tensorflow
+* Ubuntu 18.04 Shared Computing Cluster
+* BU SCC (Shared Computing Cluster) 
+
 ## Methodology
 ### 1) labels    
 L = laebls {0,1,2,3,4,5}    
