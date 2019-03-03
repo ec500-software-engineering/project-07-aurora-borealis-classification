@@ -29,7 +29,7 @@ Use the latest Inception-v4 pretrained neural network, which offers the best com
 accuracy and computational complexity to date.            
 #### 4) Ridge classfication               
 Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:      
-1. The added ridge improves the generalization capabilities of the method           
-2. It deals with binary labels            
+  - The added ridge improves the generalization capabilities of the method           
+  - It deals with binary labels            
 
 
