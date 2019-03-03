@@ -55,17 +55,21 @@ L = laebls {0,1,2,3,4,5}
              
 
 ### 2) Image preparation                 
-The images in our training data set originate from the THEMIS all-sky imager network.               
-The raw auroral image is cropped insize by 15% in order to remove pixels that correspond to very low elevation angles               
-
+  - The images in our training data set originate from the THEMIS all-sky imager network.               
+  - The raw auroral image is cropped insize by 15% in order to remove pixels that correspond to very low elevation angles               
+  - Rotate each image by a random angle around its center in order to not bias the feature selection toward acertain orientation of structures    
+  
 ### 3) Feature extraction     
-Compute the feature vector **f** from each imagexusing TensorFlow       
-Use the latest Inception-v4 pretrained neural network, which offers the best compromise between classification                
-accuracy and computational complexity to date.            
+  - Compute the feature vector **f** from each imagexusing TensorFlow       
+  - Use the latest Inception-v4 pretrained neural network, which offers the best compromise between classification                
+accuracy and computational complexity to date.   
+
 ### 4) Ridge classfication               
 Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:      
   - The added ridge improves the generalization capabilities of the method           
-  - It deals with binary labels   
+  - It deals with binary labels     
+  
+Ordinary linear regression risks to produce a model that represents the training data well but performs poorly when pre-dicting labels of unseen data, we use regularization strategy to counterbalanceoverfitting in ordinary regression       
 
 ## Definition of First Sprint
 1. Collect aurora dataset and analysis.
