@@ -10,36 +10,14 @@ L = laebls {0,1,2,3,4,5}
 | label | description |
 | ------ | ------ |
 | 0 --> arc  | one or multiple bands of aurora that stretch across the field-of-view |
-| Github | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| 1 --> diffuse | show large patches of aurora |
+| 2 --> discrete | show auroral forms with well-defined, sharp edges,but not arc like |
+| 3 --> cloudy | The sky in these images is dominated by clouds |
+| 4 --> moon  | The image is dominated by light from the Moon |
+| 5 --> clear sky/no aurora | show a clearsky without the appearance of aurora  |
 
- 
 
- 
-
-1 --> diffuse     
-
-      Images that show large patches of aurora, typically withfuzzy edges, are placed in this category.           
-      The auroral brightnessis of the order of that of stars  
-
-2 --> discrete    
-
-      The images show auroral forms with well-defined, sharp edges,that are, however, not arc like.                    
-
-3 --> cloudy     
-
-      The sky in these images is dominated by clouds or the dome of the imager is covered with snow   
-
-4 --> moon      
-
-      The image is dominated by light from the Moon     
-      
-5 --> clear sky/no aurora     
-
-      This label is attached to images which show a clearsky without the appearance of aurora               
+             
 
 #### 2) Image preparation                 
 The images in our training data set originate from the THEMIS all-sky imager network.               
