@@ -1,5 +1,5 @@
 # Aurora borealis classification
-### User story
+## User story
 Aurora Borealis and Aurora Australis are arguably the most 
 impressive manifestations of solar wind/magnetosphere coupling. 
 They are caused by charged particles (mostly electrons but also protons) 
@@ -30,10 +30,10 @@ that is then able to correctly predict the category of unseen auroral images. Th
 classifier could be used no only in research of magnetospheric dynamics, but also by
 those astronomy enthusiast.
 
-### System diagram
+## System diagram
 ![Screenshot](dataflow.jpg)
-### Methodology
-#### 1) labels    
+## Methodology
+### 1) labels    
 L = laebls {0,1,2,3,4,5}    
 
 | label | description |
@@ -48,21 +48,24 @@ L = laebls {0,1,2,3,4,5}
 
              
 
-#### 2) Image preparation                 
+### 2) Image preparation                 
 The images in our training data set originate from the THEMIS all-sky imager network.               
 The raw auroral image is cropped insize by 15% in order to remove pixels that correspond to very low elevation angles               
 
-#### 3) Feature extraction     
+### 3) Feature extraction     
 Compute the feature vector **f** from each imagexusing TensorFlow       
 Use the latest Inception-v4 pretrained neural network, which offers the best compromise between classification                
 accuracy and computational complexity to date.            
-#### 4) Ridge classfication               
+### 4) Ridge classfication               
 Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:      
   - The added ridge improves the generalization capabilities of the method           
   - It deals with binary labels   
   
-### Task assignments
+## Task assignments
   - data proprecessing
   - model selection
   - tool selection
+  
+## Reference
+Clausen, Lasse BN, and Hannes Nickisch. "Automatic Classification of Auroral Images From the Oslo Auroral THEMIS (OATH) Data Set Using Machine Learning." Journal of Geophysical Research: Space Physics 123.7 (2018): 5640-5647.
 
