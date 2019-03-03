@@ -6,10 +6,10 @@
 ### Methodology
 #### 1) labels    
 L = laebls {0,1,2,3,4,5}    
-| label number  | label meaning | descrpition   |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 0 --> arc  
 
       This label is used for images that show one or multiple bands of aurora that stretch across the field-of-view;       
