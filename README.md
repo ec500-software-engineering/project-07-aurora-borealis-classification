@@ -60,7 +60,7 @@ The raw auroral image is cropped insize by 15% in order to remove pixels that co
 
 ### 3) Feature extraction     
 Compute the feature vector **f** from each images using **TensorFlow**   
-Use the latest Inception-v4 pretrained neural network, which offers the best compromise between classification                
+Use the latest **Inception-v4** pretrained neural network, which offers the best compromise between classification                
 accuracy and computational complexity to date.            
 ### 4) Ridge classfication               
 Ridge classification is a linear method extending and generalizing ordinary linear regression in two aspects:      
