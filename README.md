@@ -13,6 +13,7 @@ In the project, we will mainly using **Python** and run them under **Linus** sys
     output(feature): Basically it would cooperate with extract function and generate output data in desired type or format.
 
 ####2. Ridge_Classifier.py
+
     train(path, modelname): This function would automatically train model using features in input path
     predict(modelname, input): This function would use selected model and new input to predict and output
 
