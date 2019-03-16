@@ -31,7 +31,7 @@ classifier could be used no only in research of magnetospheric dynamics, but als
 those astronomy enthusiast.
   
 ## System diagram
-![Screenshot](dataflow.jpg)
+![System diagram](dataflow.jpg)
 
 ## Environment
 * Tensorflow
