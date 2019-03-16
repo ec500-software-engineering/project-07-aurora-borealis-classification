@@ -4,7 +4,7 @@
 ![Wireframe](Wireframe.png)
 
 ### Technology and APIs
-In the project, we will mainly using **Python** and run them under **Linus** system, so we will mainly have two files:
+In the project, we will mainly using **Python** and run them under **Linus** system, so we will mainly have two files before we start build our website:
 
 #### 1. Feature_Extraction.py
 
