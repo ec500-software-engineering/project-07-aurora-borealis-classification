@@ -6,13 +6,13 @@
 ### Technology and APIs
 In the project, we will mainly using **Python** and run them under **Linus** system, so we will mainly have two files:
 
-####1. Feature_Extraction.py
+#### 1. Feature_Extraction.py
 
     rotate(path): If we need more data than we have, we could rotate them and use them again
     extract(path): This function would automatically extract featrues from images in input path
     output(feature): Basically it would cooperate with extract function and generate output data in desired type or format.
 
-####2. Ridge_Classifier.py
+#### 2. Ridge_Classifier.py
 
     train(path, modelname): This function would automatically train model using features in input path
     predict(modelname, input): This function would use selected model and new input to predict and output
