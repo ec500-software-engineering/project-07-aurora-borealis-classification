@@ -1,4 +1,5 @@
-'''This file would use the output from Feature_Extraction.py and include APIs of the ridge classifier'''
+'''This file would use the output from Feature_Extraction.py and include APIs
+of the ridge classifier'''
 
 from Feature_Extraction import rotate
 from Feature_Extraction import extract
