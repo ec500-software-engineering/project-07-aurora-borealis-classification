@@ -1,7 +1,7 @@
 # Aurora borealis classification
 ## Milestone 1
 ### Wireframe
-![Wireframe](Wireframe.png)
+![Wireframe](https://github.com/ec500-software-engineering/project-07-aurora-borealis-classification/blob/master/frame/Wireframe.png)
 
 ### Technology and APIs
 In the project, we will mainly using **Python** and run them under **Linus** system, so we will mainly have two files before we start build our website:
