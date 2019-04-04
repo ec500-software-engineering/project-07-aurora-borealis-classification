@@ -49,7 +49,7 @@ classifier could be used no only in research of magnetospheric dynamics, but als
 those astronomy enthusiast.
   
 ## System diagram
-![System diagram](dataflow.jpg)
+![System diagram](https://github.com/ec500-software-engineering/project-07-aurora-borealis-classification/blob/master/frame/dataflow.jpg)
 
 ## Environment
 * Tensorflow
