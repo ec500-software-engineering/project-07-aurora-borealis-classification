@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 
-{% block content %}
-    <h1>file uploaded successfully</h1>
-    <img src="{{ url_for('static', filename= './images/test/test.jpg',_t=val1) }}" width="400" height="400" />
-    <a href="{{ url_for('index') }}" class="btn btn-default btn-lg">Return to Main Page</a>
+{% block app_content %}
+    <div align="center">
+        <h4>Following is the uploaded image</h4>
+        <img src="{{ url_for('static', filename= './images/test/test.jpg',_t=val1) }}" width="400" height="400" />
+        <hr>
+        <h5>prediction result:{{ li }}</h5>
+        <br>
+        <a href="{{ url_for('index') }}" class="btn btn-default btn-lg">Return to Main Page</a>
+    </div>
 {% endblock %}

@@ -1,0 +1,16 @@
+body{
+    /*background-color: #F6F6F6;*/
+    background-image: url("https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-03.jpg");
+    text-decoration-color: #555;
+}
+.navbar-inverse {
+  background: #2c3e50;
+  color: white;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse a{
+  color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
