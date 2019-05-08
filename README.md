@@ -1,4 +1,7 @@
 # Aurora borealis classification
+## Instruction
+Since the source code especialy the tensorflow part is quite large, so it cannot be uploaded at github. Please download and decompress it at [click it to google drive](https://drive.google.com/drive/folders/1AYlohY0p-zWtjE5J2b14Hs7NRhhsXnjK?usp=sharing).  
+dive into the web-flask repo and run run.py.    
 ## Milestone 1
 ### Wireframe
 ![Wireframe](https://github.com/ec500-software-engineering/project-07-aurora-borealis-classification/blob/master/frame/Wireframe.png)
